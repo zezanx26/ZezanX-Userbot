@@ -269,7 +269,9 @@ YOUTUBE_API_KEY = os.environ.get(
     "YOUTUBE_API_KEY") or "AIzaSyACwFrVv-mlhICIOCvDQgaabo6RIoaK8Dg"
 
 # Untuk Perintah .kyyalive
-ZEZANX_TEKS_KUSTOM = os.environ.get("ZEZANX_TEKS_KUSTOM", "I'am Using ZezanX-Userbot✨")
+ZEZANX_TEKS_KUSTOM = os.environ.get(
+    "ZEZANX_TEKS_KUSTOM",
+    "I'am Using ZezanX-Userbot✨")
 
 # Untuk Mengubah Pesan Welcome
 START_WELCOME = os.environ.get("START_WELCOME", None)
