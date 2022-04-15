@@ -1,1 +1,1 @@
-FROM kyyex/ZezanX-Userbot:ex-buster
+FROM kyyex/kyy-Userbot:ex-buster
