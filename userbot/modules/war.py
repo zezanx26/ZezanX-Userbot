@@ -148,7 +148,7 @@ CMD_HELP.update(
         \n  •  **Function : **Ngeledek bapaknya si jamet\
         \n\n  •  **Syntax :** `{cmd}cuih`\
         \n  •  **Function : **Ngeludahin keluarganya satu satu wkwk\
-        \n\n**Klo mau Req, kosa kata dari lu Hubungi @IDnyaKosong**\
+        \n\n**Klo mau Req, kosa kata dari lu Hubungi @wndrslna**\
     "
     }
 )

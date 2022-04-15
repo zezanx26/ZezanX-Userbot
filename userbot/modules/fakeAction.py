@@ -1,5 +1,5 @@
 # Port By @IDnyaKosong From Kyy-Userbot
-# # Copyright (C) 2021 Kyy-Userbot
+# # Copyright (C) 2021 ZezanX-Userbot
 
 from userbot.utils import edit_or_reply, edit_delete, kyy_cmd
 from userbot import CMD_HELP, CMD_HANDLER as cmd

@@ -188,8 +188,8 @@ async def bash(cmd):
 
 def post_to_telegraph(title, html_format_content):
     post_client = TelegraphPoster(use_api=True)
-    auth_name = "Kyy-Userbot"
-    auth_url = "https://github.com/muhammadrizky16/Kyy-Userbot"
+    auth_name = "ZezanX-Userbot"
+    auth_url = "https://github.com/zezanx26/ZezanX-Userbot"
     post_client.create_api_token(auth_name)
     post_page = post_client.post(
         title=title,

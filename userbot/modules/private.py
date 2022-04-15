@@ -719,7 +719,7 @@ async def bot_start(event):
                         \n\n**Saya adalah {my_first}** \
                         \n**Anda dapat menghubungi [{OWNER}](tg://user?id={OWNER_ID}) dari sini.**\
                         \n**Jangan melakukan spam atau anda akan di Banned**\
-                        \n\n**Powered by** [UserBot](https://github.com/muhammadrizky16/Kyy-Userbot)"
+                        \n\n**Powered by** [UserBot](https://github.com/zezanx26/ZezanX-Userbot)"
     else:
         start_msg = f"**Halo [{OWNER}](tg://user?id={OWNER_ID})**\
             \n**Apa ada yang bisa saya bantu?**"

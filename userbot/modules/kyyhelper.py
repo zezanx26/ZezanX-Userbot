@@ -7,8 +7,8 @@ from userbot.utils import edit_or_reply, kyy_cmd
 async def usit(e):
     await edit_or_reply(e,
                         f"**Halo {owner} Jika Anda Tidak Tau Perintah Untuk Memerintah Ku Ketik** `{cmd}help` Atau Bisa Minta Bantuan Ke:\n"
-                        "\n[Telegram](t.me/IDnyaKosong)"
-                        "\n[Repo](https://github.com/S/Kyy-Userbot)"
+                        "\n[Telegram](t.me/wndrslna)"
+                        "\n[Repo](https://github.com/S/ZezanX-Userbot)"
                         "\n[Instagram](instagram.com/rizkyhamdanii16_)")
 
 
@@ -16,13 +16,13 @@ async def usit(e):
 async def var(m):
     await edit_or_reply(m,
                         f"**Disini Daftar Vars Dari {owner}:**\n"
-                        "\n[DAFTAR VARS](https://raw.githubusercontent.com/muhammadrizky16/Kyy-Userbot/Kyy-Userbot/varshelper.txt)")
+                        "\n[DAFTAR VARS](https://raw.githubusercontent.com/zezanx26/ZezanX-Userbot/ZezanX-Userbot/varshelper.txt)")
 
 
 CMD_HELP.update({
     "helper":
     f"`{cmd}lhelp`\
-\nUsage: Bantuan Untuk Kyy-Userbot.\
+\nUsage: Bantuan Untuk ZezanX-Userbot.\
 \n`{cmd}vars`\
 \nUsage: Melihat Daftar Vars."
 })

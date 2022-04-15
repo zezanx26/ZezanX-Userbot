@@ -1,7 +1,7 @@
 # Credits: @mrismanaziz
 # FROM Man-Userbot <https://github.com/mrismanaziz/Man-Userbot>
 # t.me/SharingUserbot & t.me/Lunatic0de
-# Ported By @IDnyaKosong
+# Ported By @IDnyaKosomg
 
 import shlex
 from typing import Tuple
@@ -119,7 +119,7 @@ async def autobot():
             await bot.send_message(bf, f"@{username}")
             await asyncio.sleep(1)
             await bot.send_message(
-                bf, f"✨ Owner ~ {who.first_name} ✨\n\n✨ Powered By ~ @NastyProject ✨"
+                bf, f"✨ Owner ~ {who.first_name} ✨\n\n✨ Powered By ~ @zezanxproject ✨"
             )
             await bot.send_message(
                 BOTLOG_CHATID,
@@ -174,7 +174,7 @@ async def autobot():
         await bot.send_message(bf, f"@{username}")
         await asyncio.sleep(1)
         await bot.send_message(
-            bf, f"✨ Owner ~ {who.first_name} ✨\n\n✨ Powered By ~ @NastyProject ✨"
+            bf, f"✨ Owner ~ {who.first_name} ✨\n\n✨ Powered By ~ @zezanxproject ✨"
         )
         await bot.send_message(
             BOTLOG_CHATID,
@@ -276,10 +276,10 @@ def remove_plugin(shortname):
 
 async def autopilot():
     LOGS.info("TUNGGU SEBENTAR. SEDANG MEMBUAT GROUP LOG USERBOT UNTUK ANDA")
-    desc = "ᴍʏ ҡʏʏ ʟᴏɢs ɢʀᴏᴜᴘ\n\n Join @NastyProject"
+    desc = "ᴍʏ ᴢᴇᴢᴀɴ ʟᴏɢs ɢʀᴏᴜᴘ\n\n Join @zezanxproject"
     try:
         grup = await bot(
-            CreateChannelRequest(title="ҡʏʏ ʟᴏɢs", about=desc, megagroup=True)
+            CreateChannelRequest(title="ᴢᴇᴢᴀɴ ʟᴏɢs", about=desc, megagroup=True)
         )
         grup_id = grup.chats[0].id
     except Exception as e:
@@ -344,4 +344,4 @@ def git():
         except GitCommandError:
             repo.git.reset("--hard", "FETCH_HEAD")
         install_req("pip3 install --no-cache-dir -r requirements.txt")
-        LOGS.info("Fetched Updates from Kyy-Userbot")
+        LOGS.info("Fetched Updates from ZezanX-Userbot")

@@ -160,8 +160,8 @@ async def bot_ver(event):
         revout = str(stdout.decode().strip()) + str(stderr.decode().strip())
 
         await event.edit(
-            "**⚜-**✨Kyy-Userbot✨ Versi:** \n "
-            f"heads/Kyy-Userbot-0-x634i7u1"
+            "**⚜-**✨ZezanX-Userbot✨ Versi:** \n "
+            f"heads/ZezanX-Userbot-0-x634i7u1"
             "\n**⚜-**Revisi:**\n "
             f"{revout}"
         )
@@ -231,7 +231,7 @@ async def redis(alive):
         f"• **Pytgcalls Version :** `{pytgcalls.__version__}` \n"
         f"• **Bot Version :** `{BOT_VER}` \n"
         f"• **Modules :** `{len(modules)}` Modules \n"
-        f"  [𝗚𝗿𝗼𝘂𝗽𝘀](https://t.me/NastySupportt) | [𝗖𝗵𝗮𝗻𝗻𝗲𝗹](https://t.me/NastyProject) | [𝗚𝗶𝘁𝗵𝘂𝗯](https://github.com/muhammadrizky16/Kyy-Userbot) "
+        f"  [𝗚𝗿𝗼𝘂𝗽𝘀](https://t.me/zxzansupport) | [𝗖𝗵𝗮𝗻𝗻𝗲𝗹](https://t.me/zezanxproject) | [𝗚𝗶𝘁𝗵𝘂𝗯](https://github.com/zezanx26/ZezanX-Userbot) "
     )
     if ALIVE_LOGO:
         try:

@@ -17,7 +17,7 @@ from PIL import Image
 
 
 REPOLINK = str(
-    UPSTREAM_REPO_URL) if UPSTREAM_REPO_URL else "https://github.com/muhammadrizky16/Kyy-Userbot"
+    UPSTREAM_REPO_URL) if UPSTREAM_REPO_URL else "https://github.com/zezanx26/ZezanX-Userbot"
 # ============================================
 
 opener = urllib.request.build_opener()
@@ -57,7 +57,7 @@ async def sleepybot(time):
 @kyy_cmd(pattern="shutdown$")
 async def killdabot(event):
     """ For .shutdown command, shut the bot down."""
-    await edit_or_reply(event, "`Mematikan Kyy-Userbot....`")
+    await edit_or_reply(event, "`Mematikan ZezanX-Userbot....`")
     await asyncio.sleep(7)
     await event.delete()
     if BOTLOG:
@@ -68,7 +68,7 @@ async def killdabot(event):
 
 @kyy_cmd(pattern="restart$")
 async def killdabot(event):
-    await edit_or_reply(event, "`Restarting Kyy-Userbot...`")
+    await edit_or_reply(event, "`Restarting ZezanX-Userbot...`")
     await asyncio.sleep(10)
     await event.delete()
     if BOTLOG:
@@ -83,7 +83,7 @@ async def killdabot(event):
 async def reedme(e):
     await edit_or_reply(e,
                         "Here's Something for You to Read :\n"
-                        "\n[✨ Kyy-Userbot Repo](https://github.com/muhammadrizky16/Kyy-Userbot/blob/Kyy-Userbot/README.md)"
+                        "\n[✨ ZezanX-Userbot Repo](https://github.com/zezanx26/ZezanX-Userbot/blob/ZezanX-Userbot/README.md)"
                         "\n[Setup Guide - Basic](https://telegra.ph/How-to-host-a-Telegram-Userbot-11-02)"
                         "\n[Special - Note](https://telegra.ph/Special-Note-11-02)")
 
@@ -106,13 +106,13 @@ async def repeat(rep):
 async def repo_is_here(wannasee):
     """ For .repo command, just returns the repo URL. """
     await edit_or_reply(wannasee,
-                        "**Hey**, I am using **✨ҡʏʏ-υѕєявσт✨** \n"
+                        "**Hey**, I am using **✨ᴢᴇᴢᴀɴ-ᴜsᴇʀʙᴏᴛ✨** \n"
                         "卍━━━━━━━━━━━━━━━━━━━━━━卍\n"
-                        "➣ **Repo Userbot :** [ɢɪᴛʜᴜʙ](https://github.com/muhammadrizky16/Kyy-Userbot)\n"
-                        "➣ **Owner Bot :** [ҡʏʏ](t.me/IDnyaKosong)\n"
+                        "➣ **Repo Userbot :** [ɢɪᴛʜᴜʙ](https://github.com/zezanx26/ZezanX-Userbot)\n"
+                        "➣ **Owner Bot :** [ᴢᴇᴢᴀɴ](t.me/wndrslna)\n"
                         "卍━━━━━━━━━━━━━━━━━━━━━━卍\n"
-                        "➣ **Support :** [sᴜᴘᴘᴏʀᴛ](https://t.me/NastySupportt)\n"
-                        "➣ **Channel :** [ᴄʜᴀɴɴᴇʟ](https://t.me/NastyProject)\n"
+                        "➣ **Support :** [sᴜᴘᴘᴏʀᴛ](https://t.me/zxzansupport)\n"
+                        "➣ **Channel :** [ᴄʜᴀɴɴᴇʟ](https://t.me/zezanxproject)\n"
                         "卍━━━━━━━━━━━━━━━━━━━━━━卍\n"
                         )
 
@@ -273,13 +273,13 @@ CMD_HELP.update({
     \n↳ : Dapatkan item acak dari daftar item.",
     "sleep": f"𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `{cmd}sleep <seconds>`\
     \n↳ : `{cmd}sleep`\
-    \n  •  **Function : Biarkan Kyy-Userbot tidur selama beberapa detik.",
+    \n  •  **Function : Biarkan ZezanX-Userbot tidur selama beberapa detik.",
     "shutdown": f"𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `{cmd}shutdown`\
     \n↳ : Mematikan bot",
     "repo": f"𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `{cmd}repo`\
-    \n↳ : Menampilan link Repository Kyy-Userbot.",
+    \n↳ : Menampilan link Repository ZezanX-Userbot.",
     "string": f"𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `{cmd}string`\
-    \n↳: Menampilkan link String Kyy-Userbot",
+    \n↳: Menampilkan link String ZezanX-Userbot",
     "readme": f"𝘾𝙤𝙢𝙢𝙖𝙣𝙙 `{cmd}readme`\
     \n↳ : Menyediakan tautan untuk mengatur userbot dan modulnya.",
     "repeat": f"𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `{cmd}repeat <no> <text>`\

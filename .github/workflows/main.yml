@@ -4,11 +4,11 @@ name: CI
 
 # Controls when the action will run. 
 on:
-  # Triggers the workflow on push or pull request events but only for the Kyy-Userbot branch
+  # Triggers the workflow on push or pull request events but only for the ZezanX-Userbot branch
   push:
-    branches: [ Kyy-Userbot ]
+    branches: [ ZezanX-Userbot ]
   pull_request:
-    branches: [ Kyy-Userbot ]
+    branches: [ ZezanX-Userbot ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
