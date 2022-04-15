@@ -1,4 +1,4 @@
-<h1 align="center">ᴢᴇᴢᴀɴ-ᴜsᴇʀʙᴏᴛ</h1>
+<h1 align="center">ᴢᴇᴢᴀɴx-ᴜsᴇʀʙᴏᴛ</h1>
 
 <p align="center">
     <a href="https://github.com/zezanx26/ZezanX-Userbot/commits/ZezanX-Userbot"><img src="https://img.shields.io/github/last-commit/zezanx26/ZezanX-Userbot?color=ff0000&logo=github&logoColor=ffffff&style=for-the-badge" /></a>
@@ -32,7 +32,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan dengan bijak.
 
 <p align="center">
 <a href="https://dashboard.heroku.com/new?template=https://github.com/zezanx26/ZezanX-Userbot"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="215""/</a>  
-<a href="https://telegram.dog/XTZ_HerokuBot?start=emV6YW54MjYvWmV6YW5YLVVzZXJib3QgS3l5LVVzZXJib3Q"><img src="https://img.shields.io/badge/Deploy%20Via%20Telegram-blue?style=for-the-badge&logo=telegram" width="215""/</a>  </p>
+<a href="https://telegram.dog/XTZ_HerokuBot?start=emV6YW54MjYvWmV6YW5YLVVzZXJib3QgWmV6YW5YLVVzZXJib3Q"><img src="https://img.shields.io/badge/Deploy%20Via%20Telegram-blue?style=for-the-badge&logo=telegram" width="215""/</a>  </p>
 
 
 ### sᴜᴘᴘᴏʀᴛ & ᴜᴘᴅᴀᴛᴇs :
@@ -41,7 +41,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan dengan bijak.
 
 ### ғᴏʟʟᴏᴡ ᴍᴇ :
 <p align="left">
-<a href="https://github.com/muhammadrizky16"><img src="https://img.shields.io/badge/GitHub-Follow%20on%20GitHub-inactive.svg?logo=github"></a> 
+<a href="https://github.com/zezanx26"><img src="https://img.shields.io/badge/GitHub-Follow%20on%20GitHub-inactive.svg?logo=github"></a> 
 <a href="https://instagram.com/rizkyhamdanii16_"><img src="https://img.shields.io/badge/Instagram-Follow%20on%20Instagram-important.svg?logo=instagram"></a>
 </p>
 
