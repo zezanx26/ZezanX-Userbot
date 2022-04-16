@@ -10,7 +10,7 @@ RUN curl -sL https://deb.nodesource.com/setup_16.x | bash - && \
 RUN git clone -b ZezanX-Userbot https://github.com/zezanx26/ZezanX-Userbot /home/ZezanX-Userbot/ \
     && chmod 777 /home/ZezanX-Userbot \
     && mkdir /home/ZezanX-Userbot/bin/
-WORKDIR /home/Zezanx-Userbot/
-COPY ./sample_config.env ./config.env* /home/Zezanx-Userbot/
+WORKDIR /home/ZezanX-Userbot/
+COPY ./sample_config.env ./config.env* /home/ZezanX-Userbot/
 RUN pip install -r requirements.txt
 CMD ["python3", "-m", "userbot"]
