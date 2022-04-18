@@ -9,7 +9,9 @@ import sys
 from importlib import import_module
 from pytgcalls import idle
 
-from userbot import (
+
+from telethon.tl.functions.channels import InviteToChannelRequest as Addbot
+
     BOTLOG_CHATID,
     BOT_TOKEN,
     BOT_VER,
