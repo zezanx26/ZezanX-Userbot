@@ -21,16 +21,16 @@ from userbot.clients import kyy_ubot_on, multiclientkyy
 from userbot.utils import autobot, autopilot, git
 
 try:
-    client=multiclientkyy()
-    total=5 - client
+    client = multiclientkyy()
+    total = 5 - client
     git()
     LOGS.info(f"Total Clients = {total} User")
 except Exception as e:
-    LOGS.info(str(e), exc_info = True)
+    LOGS.info(str(e), exc_info=True)
     sys.exit(1)
 
 for module_name in ALL_MODULES:
-    imported_module=import_module("userbot.modules." + module_name)
+    imported_module = import_module("userbot.modules." + module_name)
 
 bot.loop.run_until_complete(kyy_ubot_on())
 if not BOTLOG_CHATID:
