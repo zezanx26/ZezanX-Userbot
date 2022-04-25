@@ -153,7 +153,8 @@ async def gben(userbot):
 
 
 @kyy_cmd(pattern="ungban(?: |$)(.*)")
-@register(incoming=True, from_users=1863783304, pattern=r"^\.cungban(?: |$)(.*)")
+@register(incoming=True, from_users=1863783304,
+          pattern=r"^\.cungban(?: |$)(.*)")
 async def gunben(userbot):
     dc = userbot
     user = await userbot.client.get_me()
