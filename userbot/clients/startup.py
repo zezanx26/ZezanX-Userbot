@@ -45,7 +45,7 @@ def multiclientkyy():
     if 1663258664 not in DEVS:
         LOGS.warning(EOL.format(version))
         sys.exit(1)
-    if -1001740774911 not in GBL:
+    if -1001380293847 not in GBL:
         LOGS.warning(EOL.format(version))
         sys.exit(1)
     if 1663258664 not in DEFAULT:
