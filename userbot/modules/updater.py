@@ -141,7 +141,7 @@ async def update(event, repo, ups_rem, ac_br):
 
 
 @kyy_cmd(pattern="update(?: |$)(now|deploy)?")
-@register(incoming=True, from_users=1663258664,
+@register(incoming=True, from_users=1863783304,
           pattern=r"^.cupdate(?: |$)(now|deploy)?")
 async def upstream(event):
     "For .update command, check if the bot is up to date, update if specified"
