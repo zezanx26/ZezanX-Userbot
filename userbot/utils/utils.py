@@ -57,7 +57,7 @@ async def autobot():
     if who.username:
         username = who.username + "_ubot"
     else:
-        username = "kyy" + (str(who.id))[5:] + "ubot"
+        username = "zezan" + (str(who.id))[5:] + "ubot"
     bf = "@BotFather"
     await bot(UnblockRequest(bf))
     await bot.send_message(bf, "/cancel")
@@ -90,7 +90,7 @@ async def autobot():
     await bot.send_read_acknowledge("botfather")
     if isdone.startswith("Sorry,"):
         ran = randint(1, 100)
-        username = "kyy" + (str(who.id))[6:] + str(ran) + "ubot"
+        username = "zezan" + (str(who.id))[6:] + str(ran) + "ubot"
         await bot.send_message(bf, username)
         await asyncio.sleep(1)
         nowdone = (await bot.get_messages(bf, limit=1))[0].text
@@ -106,7 +106,7 @@ async def autobot():
             await asyncio.sleep(1)
             await bot.send_message(bf, f"@{username}")
             await asyncio.sleep(1)
-            await bot.send_file(bf, "resources/extras/IMG_20211216_160240_756.jpg")
+            await bot.send_file(bf, "resources/extras/IMG_20220505_162338_342.jpg")
             await asyncio.sleep(3)
             await bot.send_message(bf, "/setabouttext")
             await asyncio.sleep(1)
@@ -139,8 +139,8 @@ async def autobot():
                 anonymous=False,
                 manage_call=True,
             )
-            await bot(EditAdminRequest(int(BOTLOG_CHATID), f"@{username}", rights, "ᴀssɪsᴛᴀɴᴛ  ᴋʏʏ"))
-            kntl = "resources/extras/IMG_20211216_160240_756.jpg"
+            await bot(EditAdminRequest(int(BOTLOG_CHATID), f"@{username}", rights, "ᴀssɪsᴛᴀɴᴛ  ᴢᴇᴢᴀɴ"))
+            kntl = "resources/extras/IMG_20220505_162338_342.jpg"
             await bot(EditPhotoRequest(BOTLOG_CHATID, await bot.upload_file(kntl)))
             heroku_var["BOT_TOKEN"] = token
             heroku_var["BOT_USERNAME"] = f"@{username}"
@@ -161,7 +161,7 @@ async def autobot():
         await asyncio.sleep(1)
         await bot.send_message(bf, f"@{username}")
         await asyncio.sleep(1)
-        await bot.send_file(bf, "resources/extras/IMG_20211216_160240_756.jpg")
+        await bot.send_file(bf, "resources/extras/IMG_20220505_162338_342.jpg")
         await asyncio.sleep(3)
         await bot.send_message(bf, "/setabouttext")
         await asyncio.sleep(1)
@@ -194,8 +194,8 @@ async def autobot():
             anonymous=False,
             manage_call=True,
         )
-        await bot(EditAdminRequest(int(BOTLOG_CHATID), f"@{username}", rights, "ᴀssɪsᴛᴀɴᴛ  ᴋʏʏ"))
-        kntl = "resources/extras/IMG_20211216_160240_756.jpg"
+        await bot(EditAdminRequest(int(BOTLOG_CHATID), f"@{username}", rights, "ᴀssɪsᴛᴀɴᴛ  ᴢᴇᴢᴀɴ"))
+        kntl = "resources/extras/IMG_20220505_162338_342.jpg"
         await bot(EditPhotoRequest(BOTLOG_CHATID, await bot.upload_file(kntl)))
         heroku_var["BOT_TOKEN"] = token
         heroku_var["BOT_USERNAME"] = f"@{username}"
